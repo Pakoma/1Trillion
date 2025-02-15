@@ -94,8 +94,8 @@ let i18nDefault = i18nStrings.en = {
 
         hint_title: "You've got {0} free {draws}!",
         hint_desc: "Click this big “{Draw}” button below to start {drawing} some of them!",
-        hint_ios_title: "For the best experience:",
-        hint_ios_desc: "Press {0} -> “Add to Home Screen” -> “Add”",
+        hint_ios_title: "",
+        hint_ios_desc: "",
     },
 
     /** 

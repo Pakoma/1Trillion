@@ -1,6 +1,6 @@
 #notifs {
     position: fixed;
-    inset: 0 0 auto 0;
+    inset: 0px 0 auto 0;
     height: 0;
     width: min(100vw, 320px);
     margin-inline: auto;
@@ -8,7 +8,7 @@
 }
 .notif {
     position: absolute;
-    inset: 10px 1px auto 10px;
+    inset: 85px 1px auto 10px;
     background: var(--background-1);
     border: 1px solid var(--border-1);
     padding: 7px 10px;
@@ -54,7 +54,7 @@
 }
 .notif.badge-notif > .overlay {
     position: absolute;
-    inset: -1px;
+    inset: 85px 1px auto 10px;
     mix-blend-mode: lighten;
     border-radius: 5px;
     animation: badge-notif-in-overlay 1s linear;

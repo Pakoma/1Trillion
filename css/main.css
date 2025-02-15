@@ -89,6 +89,9 @@
     touch-action: manipulation;
 }
 
+html{
+}
+
 body {
     background: var(--background-0);
     color: var(--color-0);
@@ -102,6 +105,7 @@ body {
     font-size: 16px;
     line-height: 1.2;
     user-select: none;
+
 }
 
 button {
@@ -486,4 +490,24 @@ main {
     } to {
         transform: translateY(0px);
     }
+}
+
+:root {
+    --safe-vh: calc(100vh - 125px);
+}
+
+html, body {
+    height: var(--safe-vh);
+    max-height: var(--safe-vh);
+    overflow: hidden;
+    top: 75px
+}
+
+main {
+    height: var(--safe-vh);
+    max-height: var(--safe-vh);
+}
+
+#sidebar {
+    height: var(--safe-vh);
 }

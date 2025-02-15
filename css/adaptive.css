@@ -49,7 +49,7 @@
     }
     #currencies {
         position: fixed;
-        inset: 0 0 auto 0;
+        inset: 75px 0 auto 0;
         padding: 10px;
         overflow-x: auto;
         display: flex;
@@ -64,7 +64,7 @@
     }
     #draw-zone {
         position: fixed;
-        inset: auto 0 44px 0;
+        inset: auto 0 95px 0;
         padding: 0 max(25px, calc(50% - 180px));
         padding-top: 10px;
         min-height: 92px;
@@ -84,7 +84,7 @@
     }
     #draw-options {
         position: fixed;
-        inset: auto 10px 54px 10px;
+        inset: auto 10px 105px 10px;
         margin: 0 max(0px, calc(50% - 180px));
         min-height: auto;
         background: var(--background-2);
