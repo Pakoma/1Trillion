@@ -493,14 +493,14 @@ main {
 }
 
 :root {
-    --safe-vh: calc(100vh - 125px);
+    --safe-vh: calc(100vh - 110px);
 }
 
 html, body {
     height: var(--safe-vh);
     max-height: var(--safe-vh);
     overflow: hidden;
-    top: 75px
+    top: 60px
 }
 
 main {

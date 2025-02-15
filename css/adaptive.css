@@ -49,7 +49,7 @@
     }
     #currencies {
         position: fixed;
-        inset: 75px 0 auto 0;
+        inset: 50px 0 auto 0;
         padding: 10px;
         overflow-x: auto;
         display: flex;
